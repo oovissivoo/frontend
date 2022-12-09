@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+.group{
+    color:rgb(26, 23, 219);
+}
+#button_1{
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #4CAF50;
+}
+.group > label{
+    font-family: cursive;
+}

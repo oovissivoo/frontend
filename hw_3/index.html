@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+ </head>
+ <body>
+    <h1 title="Форма регистрации">Регистрация</h1>
+    <form>
+        <fieldset>
+            <div style="width:200px; height: 50px; background-color:aquamarine" class="group">
+                <label for="">Имя пользователя:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="group">
+                <label for="">Пароль:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="group">
+                <label for="">Адрес электронной почты</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="group">
+                <label for="">Дата рождения</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="group">
+                <label for="">Телефон</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+              </fieldset>
+              <fieldset>
+              <legend>Пол</legend>
+            <div class="group">
+                <label for="">Мужской</label>
+                <input type="radio" id="gender" name="gender">
+            </div>
+            <div class="group">
+                <label for="">Женский</label>
+                <input type="radio" id="gender" name="gender">
+            </div>
+              </fieldset>
+              <fieldset>
+              <legend>Город</legend>
+            <div class="group">
+                <select name="city" id="">
+                    <option value="">Шымкент</option>
+                    <option value="">Астана</option>
+                    <option value="">Алмата</option>
+                    <option value="">Актобе</option>
+                    <option value="">Тараз</option>
+                </select>
+            </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Terms & Conditions</legend>
+                <div class="group">
+                    <input type="checkbox" name="terms">
+                </div>
+                </fieldset>
+                <div class="group">
+                   <a href="hw3_2page.html"><button type="button">Регистрация</button></a> 
+                </div>
+                <style>
+                    .group {
+                      font-style: italic;
+                    }
+                  </style>
+    </form>
+ </body>
+</html>
